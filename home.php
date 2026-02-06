@@ -345,31 +345,6 @@ if (!isset($_COOKIE['User_id'])) {
             </div>
         </section>
 
-        <section class="container mt-5" id="contact">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>تواصل معنا</h2>
-                    <p>إذا كنت بحاجة إلى مزيد من المعلومات أو المساعدة، يرجى التواصل معنا عبر النموذج التالي:</p>
-                </div>
-                <div class="col-md-8 offset-md-2">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">الاسم</label>
-                            <input type="text" class="form-control" id="name" placeholder="أدخل اسمك">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">البريد الإلكتروني</label>
-                            <input type="email" class="form-control" id="email" placeholder="أدخل بريدك الإلكتروني">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">الرسالة</label>
-                            <textarea class="form-control" id="message" rows="3" placeholder="أدخل رسالتك"></textarea>
-                        </div>
-                        <button type="submit" class="btn more log_btn_color">إرسال</button>
-                    </form>
-                </div>
-            </div>
-        </section>
 
         <section class="container mt-5" id="features">
             <div class="row">
@@ -393,6 +368,34 @@ if (!isset($_COOKIE['User_id'])) {
                 </div>
             </div>
         </section>
+
+        <section class="container mt-5" id="contact">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>تواصل معنا</h2>
+                    <p>إذا كنت بحاجة إلى مزيد من المعلومات أو المساعدة، يرجى التواصل معنا عبر النموذج التالي:</p>
+                </div>
+                <div class="col-md-12 offset-md-2">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">الاسم</label>
+                            <input type="text" class="form-control" id="name" placeholder="أدخل اسمك">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" id="email" placeholder="أدخل بريدك الإلكتروني">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">الرسالة</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="أدخل رسالتك"></textarea>
+                        </div>
+                        <button type="submit" class="btn more send_btn log_btn_color">إرسال</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        
     </main>
 
     <footer class="bg-light py-3 mt-5">

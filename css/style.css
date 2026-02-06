@@ -178,6 +178,9 @@ li {
 	color: #000;
 	font-size: 13px;
 }
+.send_btn{
+	float: left;
+}
 .log_btn_color{
 	color: #fff !important;
 }
