@@ -68,8 +68,8 @@ font-weight: bold;
 <body >
 	<header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-				<a class="navbar-brand" href="#">عون</a>
+            <div class="container" style="background: #a1887f !important;z-index: 50 !important; padding-top: 0px; padding-bottom: 0px;">
+				<a class="navbar-brand" href="#">عَـــــــــــــون</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -97,7 +97,7 @@ font-weight: bold;
                             <a class="nav-link" href="FAQ.php">مساعدة</a>
                         </li>
 						<li class="nav-item">
-						<a class="nav-link" href="index.php?logout=1">الخروج</a>
+						<a class="nav-link" href="index.php?logout=1">تسجيل الخروج</a>
                         </li>
                     </ul>
                 </div>

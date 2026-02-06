@@ -89,7 +89,7 @@ if (isset($_POST['newlogin'])) {
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-sign">
         <h2 class="sign-header">عون لمساعدة الحجاج والمعتمرين </h2>
         <div class="frame">
             <nav class="nav">

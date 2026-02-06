@@ -13,11 +13,17 @@ a{
 }
 
 
-.container {
+.container-sign {
 	width: 100%;
 	padding-top: 40px;
 	padding-bottom: 100px;
 
+}
+
+.container {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 footer p{
 	color:#a1887f ;
@@ -381,6 +387,10 @@ a.btn-goback:hover {
 }
 
 /* Home PAge-------------------------------- */
+
+.navbar-nav{
+	align-items: center;
+}
 header .navbar{
 	background-image: linear-gradient(to right top, #a1887f, #a1887f);
 	height: 100px !important;
