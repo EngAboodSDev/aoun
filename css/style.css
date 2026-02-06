@@ -8,10 +8,19 @@ body * {
 body {
 	background-color: #efebe9 !important;
 }
+
 a{
 	text-decoration: none !important;
 }
 
+main{
+	margin: auto 10px !important;
+}
+
+/* Style all sections INSIDE main, except the first child */
+/* main > section:not(:first-child) {
+	margin: auto 0px !important;
+} */
 
 .container-sign {
 	width: 100%;
@@ -390,6 +399,7 @@ a.btn-goback:hover {
 
 .navbar-nav{
 	align-items: center;
+	gap: 3px;
 }
 header .navbar{
 	background-image: linear-gradient(to right top, #a1887f, #a1887f);

@@ -1,6 +1,6 @@
 <?php
-if (!isset($_COOKIE['User_id'])){
-  header('location:index.php');
+if (!isset($_COOKIE['User_id'])) {
+    header('location:index.php');
 }
 ?>
 
@@ -23,58 +23,223 @@ if (!isset($_COOKIE['User_id'])){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet"href="css/style.css" />
-            <style>
-                .row-home{
-                    height: 600px;
-                    background-image: url(img/hajj_news_1.jpg);
-                    text-align: center;
-                    padding: 50px 10px;
-                    margin-top: -70px;
-                    
-                }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        /* Hero Section - Modern & Interactive */
+        .hero-section {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-top: -1px;
+            /* Pulls the hero back to the screen edges */
+            margin-left: -10px !important;
+            margin-right: -10px !important;
+            width: calc(100% + 20px);
+        }
 
-                .row-home h1, .row-home p{
-                    color:#000;
-                    margin-top: 50px;
-                    font-size: 30px;
-                   background-color: #a1887f !important;
-                    padding: 10px 0;
-                    color:#fff;
-                   
-                }
-                #about ,#services ,#contact ,#features {
-                    background-color:#a1887f !important ;
-                    border-radius: 10px;
-                    color: #fff;
-                
-                }
-                #about p {
-                    
-                    color: #fff;
-                }
-                #services h3 ,#features h3{
-                color: #fff !important;
-                font-weight:500;
-                }
-                footer p{
-                    color:#1c3369 ;
-                }
-                .card_ser {
-                    border: 1px solid #795548;
-                   
-                }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background: url(img/kaaba.jpg) center/cover no-repeat;
+            transition: transform 8s ease-out;
+        }
 
-                .more {
-                    background-color: #795548;
-                    color: black;
-                    font-weight: 900;
-                    box-shadow: 0 2px 25px #a1887f;
-                }
-                .more:hover{
-                    background-color: #a1887f;
-                }
-            </style>
+        .hero-section:hover .hero-bg {
+            transform: scale(1.05);
+        }
+
+        .hero-overlay {
+            position: absolute;
+            backdrop-filter: blur(2px);
+            inset: 0;
+            background: linear-gradient(88deg, #a1887f54 0%, #0000007a 50%, #a1887f87 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 2rem 1rem;
+            max-width: 900px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 0.5rem 1.25rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            animation: heroFadeIn 0.8s ease-out;
+        }
+
+        .hero-title {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+            text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+            animation: heroSlideUp 0.8s ease-out 0.2s both;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+            animation: heroSlideUp 0.8s ease-out 0.4s both;
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.9rem 2rem;
+            background: #fff;
+            color: #795548;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            animation: heroSlideUp 0.8s ease-out 0.6s both;
+        }
+
+        .hero-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+            color: #5d4037;
+        }
+
+        .hero-quick-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2.5rem;
+            animation: heroSlideUp 0.8s ease-out 0.8s both;
+        }
+
+        .hero-quick-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 1.25rem;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            transition: all 0.3s ease;
+            min-width: 110px;
+        }
+
+        .hero-quick-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .hero-quick-link i {
+            font-size: 1.5rem;
+            opacity: 0.95;
+        }
+
+        .hero-quick-link span {
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        @keyframes heroFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes heroSlideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                min-height: 75vh;
+            }
+
+            .hero-quick-links {
+                gap: 0.75rem;
+            }
+
+            .hero-quick-link {
+                min-width: 90px;
+                padding: 0.85rem;
+            }
+        }
+
+        #about,
+        #services,
+        #contact,
+        #features {
+            background-color: #a1887f !important;
+            border-radius: 10px;
+            color: #fff;
+
+        }
+
+        #about p {
+
+            color: #fff;
+        }
+
+        #services h3,
+        #features h3 {
+            color: #fff !important;
+            font-weight: 500;
+        }
+
+        footer p {
+            color: #1c3369;
+        }
+
+        .card_ser {
+            border: 1px solid #795548;
+
+        }
+
+        .more {
+            background-color: #795548;
+            color: black;
+            font-weight: 900;
+            box-shadow: 0 2px 25px #a1887f;
+        }
+
+        .more:hover {
+            background-color: #a1887f;
+        }
+    </style>
 </head>
 
 <body class="body_home">
@@ -118,13 +283,36 @@ if (!isset($_COOKIE['User_id'])){
     </header>
 
     <main>
-        <section class="container mt-5">
-            <div class="row row-home">
-                <div class="col-md-12 text-center">
-                    <h1>مرحبًا بكم في موقع الحج والعمرة</h1>
-                    <p>يساعد الموقع المتطوعين والمعتمرين والحجاج على فهم اللغة والإرشادات</p>
-                    <a href="https://www.haj.gov.sa/Home" class="btn  more log_btn_color" target="_blank">تعرف على المزيد</a>
-                </div>
+        <!-- Hero Section - Modern & Interactive -->
+        <section class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-badge">دليلك الشامل للحج والعمرة</span>
+                <h1 class="hero-title">مرحبًا بكم في <i>عَـــــــــــــون</i></h1>
+                <p class="hero-subtitle">نساعد الحجاج والمعتمرين والمتطوعين على فهم المناسك والإرشادات، مع ربطكم بمتطوعين يتحدثون لغتكم</p>
+                <a href="https://www.haj.gov.sa/Home" class="hero-cta" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    تعرف على المزيد
+                </a>
+                <!-- <div class="hero-quick-links">
+                    <a href="hajj.php" class="hero-quick-link">
+                        <i class="fas fa-kaaba"></i>
+                        <span>الحج</span>
+                    </a>
+                    <a href="umrah.php" class="hero-quick-link">
+                        <i class="fas fa-mosque"></i>
+                        <span>العمرة</span>
+                    </a>
+                    <a href="chat.php" class="hero-quick-link">
+                        <i class="fas fa-hands-helping"></i>
+                        <span>المتطوعون</span>
+                    </a>
+                    <a href="translate.php" class="hero-quick-link">
+                        <i class="fas fa-language"></i>
+                        <span>الترجمة</span>
+                    </a>
+                </div> -->
             </div>
         </section>
 
@@ -182,6 +370,7 @@ if (!isset($_COOKIE['User_id'])){
                 </div>
             </div>
         </section>
+
         <section class="container mt-5" id="features">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -208,7 +397,7 @@ if (!isset($_COOKIE['User_id'])){
 
     <footer class="bg-light py-3 mt-5">
         <div class="container text-center">
-        <p>جميع الحقوق محفوظة لدى موقع عون لمساعدة الحجاج والمعتمرين &copy; 2023</p>
+            <p>جميع الحقوق محفوظة لدى موقع عون لمساعدة الحجاج والمعتمرين &copy; 2023</p>
         </div>
     </footer>
 </body>

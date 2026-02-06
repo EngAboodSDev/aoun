@@ -72,7 +72,7 @@ if (!isset($_COOKIE['User_id'])){
 			<div class="ct-blog col-sm-6 col-md-4">
 				<div class="inner">
 					<div class="fauxcrop">
-						<a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/hajj_news_1.jpg"></a>
+						<a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/kaaba.jpg"></a>
 					</div>
 					<div class="ct-blog-content">
 						<div class="ct-blog-date">
@@ -102,7 +102,7 @@ if (!isset($_COOKIE['User_id'])){
 			<div class="ct-blog col-sm-6 col-md-4">
 				<div class="inner">
 					<div class="fauxcrop">
-						<a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/hajj_news_1.jpg"></a>
+						<a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/kaaba.jpg"></a>
 					</div>
 					<div class="ct-blog-content">
 						<div class="ct-blog-date">
@@ -132,7 +132,7 @@ if (!isset($_COOKIE['User_id'])){
 			<div class="ct-blog col-sm-6 col-md-4">
 				<div class="inner">
 					<div class="fauxcrop">
-						<a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/hajj_news_1.jpg"></a>
+						<a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/kaaba.jpg"></a>
 					</div>
 					<div class="ct-blog-content">
 						<div class="ct-blog-date">
