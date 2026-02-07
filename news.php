@@ -69,7 +69,7 @@ if (!isset($_COOKIE['User_id'])) {
 				<!-- <h2 class="news-title">
 					اخر الاخبار
 				</h2> -->
-				<h1 style="text-align: center; background-color: #a1887f;color:#fff; padding: 10px; margin-bottom: 30px; border-radius: 10px;">
+				<h1 style="font-size: 35px !important; text-align: center; background-color: #a1887f;color:#fff; padding: 10px; margin-bottom: 30px; border-radius: 10px;">
 					اخر الاخبار </h1>
 				<div class="row">
 					<div class="ct-blog col-sm-6 col-md-4">

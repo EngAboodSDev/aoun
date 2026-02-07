@@ -45,11 +45,10 @@ if (!isset($_COOKIE['User_id'])) {
 		}
 
 		.image {
-			object-fit: cover;
+			object-fit: fill;
 			width: 100%;
 			height: 100%;
-			border-top-left-radius: 10px;
-			border-bottom-left-radius: 10px;
+			border-radius: 10px;
 		}
 
 		.line {
@@ -60,9 +59,6 @@ if (!isset($_COOKIE['User_id'])) {
 		@media screen and (max-width: 575px) {
 			.image {
 				height: auto;
-				border-top-left-radius: 10px;
-				border-bottom-left-radius: 0px;
-				border-top-right-radius: 10px;
 			}
 		}
 	</style>
@@ -111,13 +107,14 @@ if (!isset($_COOKIE['User_id'])) {
 
 	<main>
 		<section class="container">
-			<h1 style="text-align: center; background-color: #a1887f; padding: 10px; border-radius: 10px; color: #fff; margin-top: 20px;">
-				مناسك الحج </h1>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<h1 style="text-align: center; background-color: #a1887f;color:#fff; padding: 10px; margin-bottom: 30px; border-radius: 10px;">
+			مناسك الحج </h1>
+
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_1.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -135,11 +132,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_2.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -158,11 +155,11 @@ if (!isset($_COOKIE['User_id'])) {
 				</div>
 			</div>
 
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_3.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -180,11 +177,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_4.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -202,11 +199,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_5.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -224,11 +221,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_6.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -246,11 +243,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_7.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -267,11 +264,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/umrah_4.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -290,11 +287,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_9.jfif">
 							</div>
 							<div class="col-sm-8">
@@ -313,11 +310,11 @@ if (!isset($_COOKIE['User_id'])) {
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid px-4 py-5 mx-auto">
+			<div class="container-fluid px-4 py-2 mx-auto">
 				<div class="row d-flex justify-content-center">
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
-							<div class="col-sm-4 px-0">
+							<div class="col-sm-4 px-0 py-3">
 								<img class="image" src="img/haj_10.jfif">
 							</div>
 							<div class="col-sm-8">
