@@ -19,26 +19,23 @@ if (!isset($_COOKIE['User_id'])) {
 	<meta name="msapplication-config" content="none">
 	<meta name="screen-orientation" content="portrait-primary">
 	<title>الأسئلة الشائعة</title>
-	<link
-		rel="stylesheet"
-		href="css/style.css" />
-	<link
-		rel="stylesheet"
-		href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css" />
-	<link
-		rel="stylesheet"
-		href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>  -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> -->
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container" style="background: #a1887f !important;z-index: 50 !important; padding-top: 0px; padding-bottom: 0px;">
-				<a class="navbar-brand" href="#">عَـــــــــــــون</a>
+				<a class="navbar-brand" style="margin-right: 1rem !important;" href="#">عَـــــــــــــون</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="collapse navbar-collapse w-auto" style="align-items: center !important; flex-grow: 0.849 !important;" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
 							<a class="nav-link" href="home.php">الرئيسية</a>
@@ -71,11 +68,11 @@ if (!isset($_COOKIE['User_id'])) {
 	</header>
 	<main>
 		<section class="container">
+		<h1 style="font-size: 35px !important; text-align: center; background-color: #a1887f;color:#fff; padding: 10px; margin-bottom: 30px; border-radius: 10px;">
+		الأسئلة الشائعة </h1>
 			<div class="wrapper bg-white rounded shadow">
-				<div class="h2 text-center fw-bold">الأسئلة الشائعة</div>
-				<div class="h5 text-primary text-center" style="color:#a1887f !important">كيف يمكننا مساعدتك ؟</div>
-				<div class="d-flex justify-content-center">
-				</div>
+				<div class="h2 text-center mb-2" style="color:#a1887f !important">كيف يمكننا مساعدتك ؟</div>
+				
 				<div
 					class="accordion accordion-flush border-top border-start border-end"
 					id="myAccordion">
