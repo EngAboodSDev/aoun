@@ -2,7 +2,7 @@
 include("dbcon.php");
 
 if (isset($_GET['logout'])) {
-    setcookie('User_id', null, time()- 60 * 60 * 24);
+    setcookie('User_id', null, time()- (60 * 60 * 24));
     unset($_COOKIE['User_id']);
 }
 
