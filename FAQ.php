@@ -35,7 +35,7 @@ if (!isset($_COOKIE['User_id'])) {
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse w-auto" style="align-items: center !important; flex-grow: 0.849 !important;" id="navbarNav">
+				<div class="collapse navbar-collapse w-100 w-md-auto " style="align-items: center !important; flex-grow: 0.849 !important;" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
 							<a class="nav-link" href="home.php">الرئيسية</a>

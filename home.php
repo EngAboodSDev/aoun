@@ -2,6 +2,26 @@
 if (!isset($_COOKIE['User_id'])) {
     header('location:index.php');
 }
+
+include("dbcon.php");
+if (isset($_POST['send']) && $_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = strip_tags(trim($_POST['name']));
+    $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+    $message = strip_tags(trim($_POST['message']));
+    if (!empty($name) && !empty($email) && !empty($message)) {
+        $res = $con->query("INSERT INTO `contacts`(`name`, `email`, `message`) VALUES ('$name','$email','$message')");
+        if ($res) {
+            echo "<script type='text/javascript'>
+                alert('تم إرسال رسالتك بنجاح!');
+                window.location.href = 'home.php';
+                </script>";
+        } else {
+            echo "<script type='text/javascript'>alert('حدث خطأ أثناء الإرسال حاول مرة أخرى.')</script>";
+        }
+    } else {
+        echo "<script type='text/javascript'>alert('يرجى إعادة ملء جميع الحقول بطريقة صحيحة')</script>";
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -422,8 +442,8 @@ if (!isset($_COOKIE['User_id'])) {
                     </div>
                 </div>
                 <div class="btn-news btn-contests">
-					<a href="#">عرض المزيد...</a>
-				</div>
+                    <a href="#">عرض المزيد...</a>
+                </div>
             </div>
         </section>
 
@@ -434,20 +454,20 @@ if (!isset($_COOKIE['User_id'])) {
                     <p>إذا كنت بحاجة إلى مزيد من المعلومات أو المساعدة، يرجى التواصل معنا عبر النموذج التالي:</p>
                 </div>
                 <div class="col-md-12 offset-md-2">
-                    <form>
+                    <form method="POST" action="#">
                         <div class="mb-3">
                             <label for="name" class="form-label">الاسم</label>
-                            <input type="text" class="form-control" id="name" placeholder="أدخل اسمك">
+                            <input type="text" class="form-control" required id="name" name="name" placeholder="أدخل اسمك">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">البريد الإلكتروني</label>
-                            <input type="email" class="form-control" id="email" placeholder="أدخل بريدك الإلكتروني">
+                            <input type="email" class="form-control" required id="email" name="email" placeholder="أدخل بريدك الإلكتروني">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">الرسالة</label>
-                            <textarea class="form-control" id="message" rows="3" placeholder="أدخل رسالتك"></textarea>
+                            <textarea class="form-control" id="message" required rows="3" name="message" placeholder="أدخل رسالتك"></textarea>
                         </div>
-                        <button type="submit" class="btn more send_btn log_btn_color">إرسال</button>
+                        <button type="submit" name="send" class="btn more send_btn log_btn_color">إرسال</button>
                     </form>
                 </div>
             </div>
