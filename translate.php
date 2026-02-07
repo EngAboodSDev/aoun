@@ -1,4 +1,10 @@
 <?php
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
 if (!isset($_COOKIE['User_id'])) {
   header('location:index.php');
 }
@@ -29,10 +35,15 @@ if (!isset($_COOKIE['User_id'])) {
 
 </head>
 
-<body>
-  </head>
 
+  
   <body>
+    	<!-- 
+          * Copyright © 2026 Aoun - Hajj & Umrah Helper
+          * All rights reserved.
+          * Developed by Abdulrahman Fadhl Ameer Saif
+          * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+        -->
     <header dir="rtl">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container" style="background: #a1887f !important;z-index: 50 !important; padding-top: 0px; padding-bottom: 0px;">
@@ -109,7 +120,19 @@ if (!isset($_COOKIE['User_id'])) {
     </main>
     <script src="js/countries.js"></script>
     <script src="js/trans_script.js"></script>
-
+  	<!-- 
+		* Copyright © 2026 Aoun - Hajj & Umrah Helper
+		* All rights reserved.
+		* Developed by Abdulrahman Fadhl Ameer Saif
+		* @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+	-->
   </body>
-
+<?php
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+?>
 </html>

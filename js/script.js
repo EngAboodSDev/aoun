@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+
 /**
  * script.js - Login/Signup form UI handlers
  * Handles form switching and Choices.js initialization for the registration page
@@ -19,6 +26,8 @@ $(function () {
     $(this).removeClass("idle").addClass("active");
   });
 });
+
+
 
 /**
  * Handles Signup form submission animation.
@@ -56,4 +65,11 @@ $(function () {
 
 
 });
+
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
 

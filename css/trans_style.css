@@ -1,3 +1,9 @@
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap");
 
 /* Import Google Font - Poppins */
@@ -55,6 +61,14 @@ main {
 .text-input textarea::placeholder {
   color: #b7b6b6;
 }
+
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+
 .controls,
 li,
 .icons,
@@ -138,6 +152,13 @@ li,
   background-color: #a1887f !important;
 }
 
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+
 @media (max-width: 660px) {
   .container {
     padding: 20px;
@@ -166,3 +187,10 @@ li,
     font-size: 14px;
   }
 }
+
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/

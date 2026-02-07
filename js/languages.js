@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+
 /**
  * languages.js - Language options for volunteer registration
  * Populates all elements with class "languages" with the available language options
@@ -39,6 +46,9 @@ selectTag.forEach((tag, id) => {
   }
 });
 
-
-
-
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/

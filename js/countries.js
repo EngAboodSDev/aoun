@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+
 /**
  * countries.js - Language locale codes for translation
  * Maps locale codes (e.g. "ar-SA", "en-GB") to display names.
@@ -101,7 +108,11 @@ const countries = {
     "xh-ZA": "Xhosa",
     "yi-YD": "Yiddish",
     "zu-ZA": "Zulu"
-}
+};
 
-
-
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/

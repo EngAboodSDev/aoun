@@ -1,4 +1,10 @@
 <?php
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
 include("dbcon.php");
 
 if (isset($_GET['logout'])) {
@@ -89,6 +95,12 @@ if (isset($_POST['newlogin'])) {
 </head>
 
 <body>
+    	<!-- 
+		* Copyright © 2026 Aoun - Hajj & Umrah Helper
+		* All rights reserved.
+		* Developed by Abdulrahman Fadhl Ameer Saif
+		* @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+	-->
     <div class="container-sign">
         <h2 class="sign-header">عون لمساعدة الحجاج والمعتمرين </h2>
         <div class="frame">
@@ -170,6 +182,21 @@ if (isset($_POST['newlogin'])) {
     <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/languages.js"></script>
+
+    	<!-- 
+		* Copyright © 2026 Aoun - Hajj & Umrah Helper
+		* All rights reserved.
+		* Developed by Abdulrahman Fadhl Ameer Saif
+		* @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+	-->
 </body>
 
+<?php
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+?>
 </html>

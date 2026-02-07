@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
+
 /**
  * trans_script.js - Translation page logic
  * Handles language selection, translation API calls, copy, and text-to-speech
@@ -102,3 +109,10 @@ icons.forEach(icon => {
         }
     });
 });
+
+/*
+ * Copyright © 2026 Aoun - Hajj & Umrah Helper
+ * All rights reserved.
+ * Developed by Abdulrahman Fadhl Ameer Saif
+ * @EngAboodSDev (abdulrahmanfadhl@gmail.com)
+*/
