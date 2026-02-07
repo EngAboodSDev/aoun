@@ -72,7 +72,9 @@ if (!isset($_COOKIE['User_id'])) {
       </nav>
     </header>
     <main>
-
+    <section class="container">
+			<h1 style="text-align: center; background-color: #a1887f;color:#fff; padding: 10px; margin-bottom: 30px; border-radius: 10px;">
+			الترجمة</h1>
 
       <div class="container_t">
         <div class="wrapper_t">
@@ -100,6 +102,10 @@ if (!isset($_COOKIE['User_id'])) {
         </div>
         <button class="t_btn">Translate Text</button>
       </div>
+
+      </section>
+
+      
     </main>
     <script src="js/countries.js"></script>
     <script src="js/trans_script.js"></script>

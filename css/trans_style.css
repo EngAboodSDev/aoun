@@ -1,50 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap");
 
 /* Import Google Font - Poppins */
-*{
-  margin: 0;
-  padding: 0;
+* {
   box-sizing: border-box;
-  font-family: 'Tajawal', sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
-body{
-  background-color: #FFFAF4 !important;
+body {
+  background-color: #fffaf4 !important;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 }
-.container_t{
-  max-width: 690px;
+.container_t {
+  /* max-width: 690px; */
   width: 100%;
   padding: 30px;
   background: #fff;
-  border-radius: 7px;
+  border-radius: 10px;
   box-shadow: 0px 1px 4px 0px #c8b9cf !important;
 }
-.cont_t{
-    background: #fff; 
+.cont_t {
+  background: #fff;
 }
-.wrapper_t{
+.wrapper_t {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-.wrapper_t .text-input{
+.wrapper_t .text-input {
   display: flex;
   border-bottom: 1px solid #ccc;
 }
-.text-input .to-text{
+.text-input .to-text {
   border-radius: 0px;
   border-left: 1px solid #ccc;
 }
-.text-input textarea{
+.text-input textarea {
   height: 250px;
   width: 100%;
   border: none;
@@ -55,22 +52,25 @@ main{
   padding: 10px 15px;
   border-radius: 5px;
 }
-.text-input textarea::placeholder{
+.text-input textarea::placeholder {
   color: #b7b6b6;
 }
-.controls, li, .icons, .icons i{
+.controls,
+li,
+.icons,
+.icons i {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.controls{
+.controls {
   list-style: none;
   padding: 12px 15px;
 }
-.controls .row .icons{
+.controls .row .icons {
   width: 38%;
 }
-.controls .row .icons i{
+.controls .row .icons i {
   width: 50px;
   color: #adadad;
   font-size: 14px;
@@ -78,15 +78,15 @@ main{
   transition: transform 0.2s ease;
   justify-content: center;
 }
-.controls .row.from .icons{
+.controls .row.from .icons {
   padding-right: 15px;
   border-right: 1px solid #ccc;
 }
-.controls .row.to .icons{
+.controls .row.to .icons {
   padding-left: 15px;
   border-left: 1px solid #ccc;
 }
-.controls .row select{
+.controls .row select {
   color: #333;
   border: none;
   outline: none;
@@ -94,35 +94,35 @@ main{
   background: none;
   padding-left: 5px;
 }
-.text-input textarea::-webkit-scrollbar{
+.text-input textarea::-webkit-scrollbar {
   width: 4px;
 }
-.controls .row select::-webkit-scrollbar{
+.controls .row select::-webkit-scrollbar {
   width: 8px;
 }
 .text-input textarea::-webkit-scrollbar-track,
-.controls .row select::-webkit-scrollbar-track{
+.controls .row select::-webkit-scrollbar-track {
   background: #fff;
 }
-.text-input textarea::-webkit-scrollbar-thumb{
+.text-input textarea::-webkit-scrollbar-thumb {
   background: #ddd;
   border-radius: 8px;
 }
-.controls .row select::-webkit-scrollbar-thumb{
+.controls .row select::-webkit-scrollbar-thumb {
   background: #999;
   border-radius: 8px;
   border-right: 2px solid #ffffff;
 }
-.controls .exchange{
+.controls .exchange {
   color: #adadad;
   cursor: pointer;
   font-size: 16px;
   transition: transform 0.2s ease;
 }
-.controls i:active{
+.controls i:active {
   transform: scale(0.9);
 }
-.t_btn{
+.t_btn {
   width: 100%;
   padding: 14px;
   outline: none;
@@ -134,36 +134,35 @@ main{
   border-radius: 5px;
   background-color: #795548 !important;
 }
-.t_btn:hover{
-  
+.t_btn:hover {
   background-color: #a1887f !important;
 }
 
-@media (max-width: 660px){
-  .container{
+@media (max-width: 660px) {
+  .container {
     padding: 20px;
   }
-  .wrapper .text-input{
+  .wrapper .text-input {
     flex-direction: column;
   }
-  .text-input .to-text{
+  .text-input .to-text {
     border-left: 0px;
     border-top: 1px solid #ccc;
   }
-  .text-input textarea{
+  .text-input textarea {
     height: 200px;
   }
-  .controls .row .icons{
+  .controls .row .icons {
     display: none;
   }
-  .container button{
+  .container button {
     padding: 13px;
     font-size: 16px;
   }
-  .controls .row select{
+  .controls .row select {
     font-size: 16px;
   }
-  .controls .exchange{
+  .controls .exchange {
     font-size: 14px;
   }
 }

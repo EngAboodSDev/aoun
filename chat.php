@@ -43,7 +43,7 @@ if (!isset($_COOKIE['User_id'])){
     .card-text span {
         background-color: #a1887f;
         padding: 2px 5px;
-        border-radius: 8px;
+        border-radius: 10px;
         color: #fff;
         
         
