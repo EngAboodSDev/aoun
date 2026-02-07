@@ -1,6 +1,6 @@
 <?php
-if (!isset($_COOKIE['User_id'])){
-  header('location:index.php');
+if (!isset($_COOKIE['User_id'])) {
+    header('location:index.php');
 }
 
 
@@ -35,32 +35,35 @@ if (!isset($_COOKIE['User_id'])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" />
     <style>
-        .card-text:first-child{
-            width:100%;
-            min-height:100px ;
-            max-height:auto;
+        .card-text:first-child {
+            width: 100%;
+            min-height: 100px;
+            max-height: auto;
         }
-    .card-text span {
-        background-color: #a1887f;
-        padding: 2px 5px;
-        border-radius: 10px;
-        color: #fff;
-        
-        
-    }
 
-    .card {
-        box-shadow: 0px 1px 4px 0px #c8b9cf !important;
-    }
-    .more {
-                    background-color: #795548;
-                    color: black;
-                    font-weight: 900;
-                    box-shadow: 0 2px 25px #a1887f;
-                }
-                .more:hover{
-                    background-color: #a1887f;
-                }
+        .card-text span {
+            background-color: #a1887f;
+            padding: 2px 5px;
+            border-radius: 10px;
+            color: #fff;
+
+
+        }
+
+        .card {
+            box-shadow: 0px 1px 4px 0px #c8b9cf !important;
+        }
+
+        .more {
+            background-color: #795548;
+            color: black;
+            font-weight: 900;
+            box-shadow: 0 2px 25px #a1887f;
+        }
+
+        .more:hover {
+            background-color: #a1887f;
+        }
     </style>
 </head>
 
@@ -68,7 +71,7 @@ if (!isset($_COOKIE['User_id'])){
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container" style="background: #a1887f !important;z-index: 50 !important; padding-top: 0px; padding-bottom: 0px;">
-            <a class="navbar-brand" href="#">عَـــــــــــــون</a>
+                <a class="navbar-brand" href="#">عَـــــــــــــون</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -104,86 +107,87 @@ if (!isset($_COOKIE['User_id'])){
             </div>
         </nav>
     </header>
-    <div class="container">
+    <main>
+		<section class="container">
+        <h1 style="font-size: 35px !important; text-align: center; background-color: #a1887f;color:#fff; padding: 10px; margin-bottom: 30px; border-radius: 10px;">
+        التواصل مع المتطوعين
+    </h1>
         <div class="row">
-          <form action="#" id="langform" method="post" style="display:none"></form>
+            <form action="#" id="langform" method="post" style="display:none"></form>
             <div class="col-md-12">
                 <div class="text-center mb-4">
                     <select id="dd" form="langform" name="selectedLang" onchange="submitForm(this)" class="form-select language-select languages" aria-label="Default select example">
-                          <?php if (isset($_POST['selectedLang'])  && $_POST['selectedLang']!='0' ) 
-                                  echo "<option  value='".$_POST['selectedLang']."'> ". $_POST['selectedLang']. " </option>";
-                                ?> 
-                                <option  value="0"> إخــتـر الـلـــغـة  | Choose Language ... </option>
+                        <?php if (isset($_POST['selectedLang'])  && $_POST['selectedLang'] != '0')
+                            echo "<option  value='" . $_POST['selectedLang'] . "'> " . $_POST['selectedLang'] . " </option>";
+                        ?>
+                        <option value="0"> إخــتـر الـلـــغـة | Choose Language ... </option>
 
-                        </select>
+                    </select>
                 </div>
             </div>
         </div>
         <div class="row user-cards">
-            <?php	
-            
-          include("dbcon.php");
-          if (!isset($_POST['selectedLang']) || $_POST['selectedLang']=='0'){
-            $res = mysqli_query($con,"SELECT *  FROM `users`  WHERE `isVolunteer`='1' ");  
-          }
-          else if (isset($_POST['selectedLang']) && $_POST['selectedLang']!='0') {
-          $selectedLang=$_POST['selectedLang'];
-          $res = mysqli_query($con,"SELECT users.* , l.language lang FROM `users` LEFT JOIN `users_language` l ON (users.id=l.user_id) WHERE `isVolunteer`='1' AND l.language='$selectedLang' GROUP BY `user_id`");  
-          }
-          else {
-            $res = mysqli_query($con,"SELECT * FROM `users` where `isVolunteer`='1'  ");  
-          }
-          while($row = mysqli_fetch_array($res)){
-                $user_id=$row['id'];
-                $user_name=$row['username'];
-                $email=$row['email'];
-                $phone=$row['phone'];
-          ?>
+            <?php
 
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <span>
-                        <h5 class="card-title"><img src="img/user.png" alt="..." width="70" height="70">
-                            <?php echo $user_name;?> </h5>
-                    </span>
+            include("dbcon.php");
+            if (!isset($_POST['selectedLang']) || $_POST['selectedLang'] == '0') {
+                $res = mysqli_query($con, "SELECT *  FROM `users`  WHERE `isVolunteer`='1' ");
+            } else if (isset($_POST['selectedLang']) && $_POST['selectedLang'] != '0') {
+                $selectedLang = $_POST['selectedLang'];
+                $res = mysqli_query($con, "SELECT users.* , l.language lang FROM `users` LEFT JOIN `users_language` l ON (users.id=l.user_id) WHERE `isVolunteer`='1' AND l.language='$selectedLang' GROUP BY `user_id`");
+            } else {
+                $res = mysqli_query($con, "SELECT * FROM `users` where `isVolunteer`='1'  ");
+            }
+            while ($row = mysqli_fetch_array($res)) {
+                $user_id = $row['id'];
+                $user_name = $row['username'];
+                $email = $row['email'];
+                $phone = $row['phone'];
+            ?>
 
-                    <div class="card-body">
-                        <p class="card-text"> اللغة:
-                            <?php	
-                          include("dbcon.php");
-                          $resl = mysqli_query($con,"SELECT `language` FROM `users_language` WHERE `user_id`='$user_id'");  
-                          while($rowl = mysqli_fetch_array($resl)){
-                            $lang=$rowl['language'];
-                            echo "</br>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <span>
+                            <h5 class="card-title"><img src="img/user.png" alt="..." width="70" height="70">
+                                <?php echo $user_name; ?> </h5>
+                        </span>
+
+                        <div class="card-body">
+                            <p class="card-text"> اللغة:
+                                <?php
+                                include("dbcon.php");
+                                $resl = mysqli_query($con, "SELECT `language` FROM `users_language` WHERE `user_id`='$user_id'");
+                                while ($rowl = mysqli_fetch_array($resl)) {
+                                    $lang = $rowl['language'];
+                                    echo "</br>
                           <span class='lang'>$lang</span> </br>";
-                          }?>
-                        </p>
-                        <p class="card-text"> الايــمــــيـل: <?php echo $email;?></p>
-                        <a href="https://wa.me/+966<?php echo $phone;?>" class="btn more log_btn_color"
-                            style="letter-spacing:2px;display:block;" target="_blank"> الــتـواصــل عـبر الواتــسـاب <i
-                                class="fab fa-whatsapp"></i></a>
+                                } ?>
+                            </p>
+                            <p class="card-text"> الايــمــــيـل: <?php echo $email; ?></p>
+                            <a href="https://wa.me/+966<?php echo $phone; ?>" class="btn more log_btn_color"
+                                style="letter-spacing:2px;display:block;" target="_blank"> الــتـواصــل عـبر الواتــسـاب <i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <?php }?>
+            <?php } ?>
 
         </div>
-
-
+        </section>        
         <footer class="bg-light py-3 mt-5">
             <div class="container text-center">
                 <p>جميع الحقوق محفوظة لدى موقع عون لمساعدة الحجاج والمعتمرين &copy; 2023</p>
             </div>
         </footer>
 
-       
+
         <script src="js/script.js"></script>
         <script src="js/languages.js"></script>
-        <script >
-function submitForm(sel) {
-    let sub=document.getElementById("langform");
-    sub.submit();
-  }
+        <script>
+            function submitForm(sel) {
+                let sub = document.getElementById("langform");
+                sub.submit();
+            }
         </script>
 </body>
 
