@@ -88,7 +88,7 @@ if (!isset($_COOKIE['User_id'])) {
 							<a class="nav-link" href="umrah.php">العمرة</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="chat.php">التواصل مع المتطوعين </a>
+							<a class="nav-link" href="volunteers.php"> المتطوعين</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="news.php">الاخبار</a>

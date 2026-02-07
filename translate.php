@@ -52,7 +52,7 @@ if (!isset($_COOKIE['User_id'])) {
                 <a class="nav-link" href="umrah.php">العمرة</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="chat.php">التواصل مع المتطوعين </a>
+                <a class="nav-link" href="volunteers.php"> المتطوعين</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="news.php">الاخبار</a>
@@ -74,7 +74,7 @@ if (!isset($_COOKIE['User_id'])) {
     <main>
     <section class="container">
 			<h1 style="text-align: center; background-color: #a1887f;color:#fff; padding: 10px; margin-bottom: 30px; border-radius: 10px;">
-			الترجمة</h1>
+			ترجــمة الـنص</h1>
 
       <div class="container_t">
         <div class="wrapper_t">
