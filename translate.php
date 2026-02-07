@@ -118,6 +118,12 @@ if (!isset($_COOKIE['User_id'])) {
 
       
     </main>
+      <footer class="bg-light py-3 mt-5">
+      <div class="container text-center">
+        <p>جميع الحقوق محفوظة لدى موقع عون لمساعدة الحجاج والمعتمرين &copy; 2023</p>
+        <p>تصميم وتطوير: <a href="mailto:abdulrahmanfadhl@gmail.com">عبدالرحمن فضل أمير سيف</a> | EngAboodSDev@</p>
+      </div>
+    </footer>
     <script src="js/countries.js"></script>
     <script src="js/trans_script.js"></script>
   	<!-- 

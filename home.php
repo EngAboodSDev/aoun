@@ -247,9 +247,6 @@ if (isset($_POST['send']) && $_SERVER["REQUEST_METHOD"] == "POST") {
             font-weight: 500;
         }
 
-        footer p {
-            color: #1c3369;
-        }
 
         .card_ser {
             border: 1px solid #795548;
@@ -489,10 +486,11 @@ if (isset($_POST['send']) && $_SERVER["REQUEST_METHOD"] == "POST") {
     </main>
 
     <footer class="bg-light py-3 mt-5">
-        <div class="container text-center">
-            <p>جميع الحقوق محفوظة لدى موقع عون لمساعدة الحجاج والمعتمرين &copy; 2023</p>
-        </div>
-    </footer>
+		<div class="container text-center">
+			<p>جميع الحقوق محفوظة لدى موقع عون لمساعدة الحجاج والمعتمرين &copy; 2023</p>
+			<p>تصميم وتطوير: <a href="mailto:abdulrahmanfadhl@gmail.com">عبدالرحمن فضل أمير سيف</a> | EngAboodSDev@</p>
+		</div>
+	</footer>
     	<!-- 
 		* Copyright © 2026 Aoun - Hajj & Umrah Helper
 		* All rights reserved.
