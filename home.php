@@ -202,7 +202,8 @@ if (!isset($_COOKIE['User_id'])) {
         #about,
         #services,
         #contact,
-        #features {
+        #features,
+        #news {
             background-color: #a1887f !important;
             border-radius: 10px;
             color: #fff;
@@ -369,6 +370,63 @@ if (!isset($_COOKIE['User_id'])) {
             </div>
         </section>
 
+        <section class="container mt-5" id="news">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>آخر الاخبار</h2>
+                    <p>اطلع على آخر الاخبار والمقالات المتعلقة بالحج والعمرة..</p>
+                </div>
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/kaaba.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>يناير</span><strong>24</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                وزارة الحج والعمرة السعودية تبدأ في استقبال طلبات تصريح المساكن المعدة للحجاج
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://akhbarelyom.com/news/newdetails/3999848/1/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D8%B9%D8%AF%D9%88%D9%86-%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D9%85%D9%84%D9%8A%D9%88%D9%86%D9%8A-%D8%AD%D8%A7%D8%AC-%D8%AE%D9%84%D8%A7%D9%84-%D9%87"><img alt="News Entry" src="img/hajj_news_2.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>يناير</span><strong>24</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                السعودية: مستعدون لخدمة مليوني حاج خلال هذا العام
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="ct-blog col-sm-6 col-md-4">
+                    <div class="inner">
+                        <div class="fauxcrop">
+                            <a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/kaaba.jpg"></a>
+                        </div>
+                        <div class="ct-blog-content">
+                            <div class="ct-blog-date">
+                                <span>يناير</span><strong>24</strong>
+                            </div>
+                            <h3 class="ct-blog-header">
+                                وزارة الحج والعمرة السعودية تبدأ في استقبال طلبات تصريح المساكن المعدة للحجاج
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-news btn-contests">
+					<a href="#">عرض المزيد...</a>
+				</div>
+            </div>
+        </section>
+
         <section class="container mt-5" id="contact">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -395,7 +453,7 @@ if (!isset($_COOKIE['User_id'])) {
             </div>
         </section>
 
-        
+
     </main>
 
     <footer class="bg-light py-3 mt-5">
