@@ -1,4 +1,5 @@
-# عون لمساعدة الحجاج والمعتمرين | Aoun - Hajj & Umrah Helper
+
+#  🕋 منصة عون لمساعدة الحجاج والمعتمرين | Aoun - Hajj & Umrah Helper Platform  ![logo](/docs/logo.svg)
 
 A web platform designed to assist pilgrims (Hajj) and Umrah performers with comprehensive guides, volunteer support, and translation services. The platform connects pilgrims with multilingual volunteers and provides step-by-step ritual instructions in Arabic.
 
@@ -6,22 +7,26 @@ A web platform designed to assist pilgrims (Hajj) and Umrah performers with comp
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Database Setup](#database-setup)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [License](#license)
+- 📊 [ Overview](#overview)
+- 🚀 [ Key Features](#key-features)
+- 🛠️ [ Tech Stack Used](#tech-stack-used)
+- 🗂 [ Project Structure](#project-structure)
+- 🖥️ [ Project Requirements](#project-requirements)
+- 📸 [ Screenshots](#screenshots)
+- ⚡ [ Quick Installation](#quick-installation)
+- 🔧 [ Configuration](#configuration)
+- 🗄 [ Database Setup](#database-setup)
+- ▶️ [ Usage](#usage)
+- 🤝 [ Contributing](#contributing)
+- 📄 [ License](#license)
+- 🏷️ [ Credits](#credits)
+- 📞 [ Support and Assistance](#support-and-assistance)
 
 ---
 
-## Overview
-
+<h2 id="overview">📊 Overview</h2>
+<!-- ## Overview -->
+## 📊Overview
 **عون (Aoun)** means "Help" or "Support" in Arabic. This platform serves as a digital companion for Muslims performing Hajj or Umrah by providing:
 
 - **Detailed ritual guides** for Hajj and Umrah with step-by-step instructions
@@ -34,126 +39,142 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-## Features
 
-### Authentication
+## 🚀 Key Features
+
+### ✔️ Authentication
 - **Login** — Username and password authentication
 - **Registration** — Sign up as pilgrim (Hajj/Umrah) or volunteer
 - **Language selection** — Volunteers can specify languages they speak (Arabic, Bengali, English, German, etc.)
 - **Session management** — Cookie-based sessions for authenticated users
 
-### Hajj Guide (`hajj.php`)
-- Complete guide to Hajj rituals
+### ✔️ Hajj and Umrah Guide (`hajj.php`, `umrah.php`) 
+- Complete guide to Hajj and Umrah rituals
 - Illustrated steps with images
 - Covers all mandatory rites and procedures
 
-### Umrah Guide (`umrah.php`)
-- Six-step Umrah ritual guide:
-  1. الإحرام (Ihram) — State of consecration
-  2. تلفظ بنيتك وردد التلبية — Declare intention and recite Talbiyah
-  3. تقدم تجاه الكعبة — Approach the Kaaba
-  4. قم بالطواف — Perform Tawaf (circumambulation)
-  5. قم بالسعي — Perform Sa'i (between Safa and Marwah)
-  6. احلق شعرك أو قصه — Shave or trim hair
 
-### Volunteer Connection (`chat.php`)
+### ✔️ Volunteer Connection (`chat.php`)
 - Browse volunteers by language
 - Filter volunteers by spoken language
 - Direct WhatsApp contact links
 - Display of volunteer languages, email, and contact info
 
-### Translation (`translate.php`)
+### ✔️ Translation (`translate.php`)
 - Multi-language text translation
 - 50+ languages supported via MyMemory API
 - Text-to-speech (TTS) for pronunciation
 - Copy to clipboard
 - Swap source and target languages
 
-### News (`news.php`)
+### ✔️ News (`news.php`)
 - Latest Hajj and Umrah news
 - Links to external news sources
 - Card-based layout with images
 
-### FAQ (`FAQ.php`)
+### ✔️ FAQ (`FAQ.php`)
 - Accordion-style FAQ section
 - Topics: differences between Hajj and Umrah, rituals, legal rulings, proxy performance, health procedures
 
 ---
 
-## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| **Backend** | PHP 8.x |
-| **Database** | MySQL / MariaDB |
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Framework** | Bootstrap 5 |
-| **Libraries** | jQuery, Choices.js, Font Awesome |
-| **APIs** | MyMemory Translation API |
-| **Server** | XAMPP (Apache) |
+## 🛠️ Tech-Stack Used
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) 
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Bootstrap 5](https://img.shields.io/badge/bootstrap_5-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+![Choices.js](https://img.shields.io/badge/choices.js-%23404d59.svg?style=for-the-badge&logo=javascript&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/font_awesome-%23339AF0.svg?style=for-the-badge&logo=fontawesome&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/mariadb-%23003545.svg?style=for-the-badge&logo=mariadb&logoColor=white)
+![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
+![XAMPP](https://img.shields.io/badge/xampp-%23FB7A24.svg?style=for-the-badge&logo=xampp&logoColor=white)
+![MyMemory API](https://img.shields.io/badge/MyMemory_Translation_API-%23007ACC.svg?style=for-the-badge&logo=googletranslate&logoColor=white)
 
 ---
 
-## Project Structure
+## 🗂 Project Structure
 
 ```
-Aoun/
+📁 Aoun/
 ├── index.php          # Login & registration page
 ├── home.php           # Homepage (requires auth)
 ├── hajj.php           # Hajj ritual guide
 ├── umrah.php          # Umrah ritual guide
-├── chat.php           # Volunteer contact / matching
+├── volunteers.php     # Volunteer contact / matching
 ├── translate.php      # Translation tool
 ├── news.php           # Hajj & Umrah news
 ├── FAQ.php            # Frequently asked questions
 ├── dbcon.php          # Database connection
-├── css/
+├── 📁 css/
 │   ├── style.css      # Main styles
 │   └── trans_style.css # Translation page styles
-├── js/
+├── 📁 js/
 │   ├── script.js      # Login form toggle, Choices.js init
 │   ├── languages.js   # Language list for registration
 │   ├── countries.js   # Language codes for translation
 │   └── trans_script.js # Translation logic
-├── images/               # Images (Hajj, Umrah, news, user avatar)
-├── database/
-│   ├── aoun.sql       # Database schema
-│   └── aoun (1).sql   # Alternative schema with sample data
+├── 📁 images/         # Images (Hajj, Umrah, news, user avatar)
+├── 📁 database/
+│   └── aoun.sql       # Alternative Database schema with sample data
 └── README.md
 ```
 
 ---
 
-## Requirements
+## 🖥️ Project Requirements
 
-- **PHP** 7.4 or higher (8.x recommended)
-- **MySQL** 5.7+ or **MariaDB** 10.4+
-- **Apache** (or compatible web server)
-- **XAMPP** (or similar local stack)
-
----
-
-## Installation
-
-1. **Clone or copy** the project into your web server directory:
-   ```
-   c:\xampp\htdocs\2025\Aoun\
-   ```
-
-2. **Start XAMPP** and ensure Apache and MySQL are running.
-
-3. **Import the database** (see [Database Setup](#database-setup)).
-
-4. **Configure** `dbcon.php` with your database credentials (see [Configuration](#configuration)).
-
-5. **Access the application** in your browser:
-   ```
-   http://localhost/2025/Aoun/
-   ```
+- **Operating System:** Windows 10+, macOS Monterey+, or any Linux distro  
+- **Web Browser:** Chrome / Firefox / Edge (latest versions)  
+- **📋Runtime & Tools:**  
+  - ***PHP*** 7.4 or higher (8.x recommended)
+  - ***MySQL*** 5.7+ or ***MariaDB*** 10.4+
+  - ***Apache*** (or compatible web server)
+  - ***XAMPP*** (or similar local stack)
 
 ---
 
-## Configuration
+## 📸 Screenshots
+
+![Home Page](/public/Screenshot/homepage.png)
+![Login Page](/public/Screenshot/login_page.png)
+![Register Page](/public/Screenshot/register_page.png)
+![Chat Page](/public/Screenshot/chat_page.png)
+
+---
+
+## ⚡ Quick Installation
+
+1. **Clone the Repository** 
+     ```bash
+     git clone <repository-url>
+     cd aoun
+     ```
+
+2. **Copy the Project into your web server directory**
+   ```
+   c:\xampp\htdocs\aoun\
+   ```
+
+3. **Start XAMPP** and ensure Apache and MySQL are running.
+
+4. **Import the database** (see [Database Setup](#database-setup)).
+
+5. **Configure** `dbcon.php` with your database credentials (see [Configuration](#configuration)).
+
+6. **Access the application** in your browser:
+   ```
+   http://localhost/aoun/
+   ```
+
+---
+
+## 🔧 Configuration
 
 ### Database Connection (`dbcon.php`)
 
@@ -171,26 +192,35 @@ $con = mysqli_connect("localhost", "root", "", "aoun", "3308");
 | Database | `aoun` |
 | Port | `3308` (default MySQL is 3306) |
 
+
+### Translation API
+
+The translation feature uses the free **MyMemory API**:
+- URL: `https://api.mymemory.translated.net/get`
+- No API key required for basic usage
+- Rate limits may apply for heavy use
+
 ---
 
-## Database Setup
+## 🗄 Database Setup
 
 1. Open **phpMyAdmin** or MySQL CLI.
 
 2. Create the database and import the schema:
    ```sql
-   -- Run the contents of database/aoun.sql or database/aoun (1).sql
+   -- Run the contents of database/aoun.sql
    ```
 
 3. **Tables:**
    - **`users`** — id, username, email, phone, password, isVolunteer
    - **`users_language`** — id, language, user_id (foreign key to users)
+   - **`contacts`** — id, name, email, message
 
-4. Sample data is included in `aoun (1).sql` for testing.
+4. Sample data is included in `aoun.sql` for testing.
 
 ---
 
-## Usage
+## ▶️ Usage
 
 ### For Pilgrims (Hajj/Umrah)
 1. Register or log in.
@@ -212,54 +242,42 @@ $con = mysqli_connect("localhost", "root", "", "aoun", "3308");
 
 ---
 
-## Supported Languages (Registration)
+## 🤝 Contributing
 
-- Arabic | العربية  
-- Bengali | البنغالية  
-- Chinese | الصينية  
-- Dutch | الهولندية  
-- English | الإنجليزية  
-- French | الفرنسية  
-- German | الألمانية  
-- Hindi | الهندية  
-- Italian | الإيطالية  
-- Japanese | اليابانية  
-- Korean | الكورية  
-- Portuguese | البرتغالية  
-- Russian | الروسية  
-- Spanish | الإسبانية  
-- Swahili | السواحيلية  
-- Turkish | التركية  
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ---
 
-## Translation API
+## 📄 License
 
-The translation feature uses the free **MyMemory API**:
-- URL: `https://api.mymemory.translated.net/get`
-- No API key required for basic usage
-- Rate limits may apply for heavy use
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Security Notes
-
-- Passwords are stored in plain text in the current implementation. Consider hashing (e.g., `password_hash()`) for production.
-- Use prepared statements or parameterized queries to prevent SQL injection.
-- Validate and sanitize all user inputs.
-
----
-
-## License
-
-All rights reserved © 2023 عون لمساعدة الحجاج والمعتمرين (Aoun - Hajj & Umrah Helper)
-
----
-
-## Credits
+## 🏷️ Credits
 
 - **Bootstrap** — [getbootstrap.com](https://getbootstrap.com)
 - **Font Awesome** — [fontawesome.com](https://fontawesome.com)
 - **Choices.js** — [github.com/bbbootstrap](https://github.com/bbbootstrap/libraries)
 - **MyMemory** — [mymemory.translated.net](https://mymemory.translated.net)
-- **Tajawal Font** — Google Fonts
+- **Tajawal Google Font** — [fonts.google.com](https://fonts.google.com/)
+
+---
+
+## 📞 Support and Assistance
+
+### Getting Help
+- **README.md**: For basic instructions
+- **GitHub Issues**: Create an issue in the repository
+
+### Contact Information
+- **Developer**: Abdulrahman Fadhl Ameer Saif `@EngAboodSDev`
+- **Email**: abdulrahmanfadhl@gmail.com
+- **LinkedIn**: [Abdulrahman Fadhl](https://www.linkedin.com/in/engaboodsdev/)
+- **Repository**: [GitHub Repository](https://github.com/EngAboodSDev/aoun)
+
+---
