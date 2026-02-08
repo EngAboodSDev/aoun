@@ -1,8 +1,8 @@
 
-#  🕋 منصة عون لمساعدة الحجاج والمعتمرين | Aoun - Hajj & Umrah Helper Platform  
+#  🕋 Aoun - Hajj & Umrah Helper Platform  | منصة عون لمساعدة الحجاج والمعتمرين 
 ![logo](/docs/screenshots/main-image.png)
 
-A web platform designed to assist pilgrims (Hajj) and Umrah performers with comprehensive guides, volunteer support, and translation services. The platform connects pilgrims with multilingual volunteers and provides step-by-step ritual instructions in Arabic.
+A web platform designed to assist pilgrims Hajj and Umrah performers with comprehensive guides, volunteer support, and translation services. The platform connects pilgrims with multilingual volunteers and provides step-by-step ritual instructions in Arabic.
 
 ---
 
@@ -53,7 +53,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 - Covers all mandatory rites and procedures
 
 
-### ✔️ Volunteer Connection (`chat.php`)
+### ✔️ Volunteer Connection (`volunteers.php`)
 - Browse volunteers by language
 - Filter volunteers by spoken language
 - Direct WhatsApp contact links
