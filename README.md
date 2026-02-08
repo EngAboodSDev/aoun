@@ -278,7 +278,7 @@ The translation feature uses the free **MyMemory API**:
 </details>
 
 
-[All Screenshots](/docs/screenshots/)
+[See All Screenshots...](/docs/screenshots/)
 
 ---
 
