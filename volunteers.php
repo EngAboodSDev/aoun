@@ -160,7 +160,7 @@ if (!isset($_COOKIE['User_id'])) {
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <span>
-                            <h5 class="card-title"><img src="img/user.png" alt="..." width="70" height="70">
+                            <h5 class="card-title"><img src="images/user.png" alt="..." width="70" height="70">
                                 <?php echo $user_name; ?> </h5>
                         </span>
 

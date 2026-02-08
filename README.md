@@ -115,7 +115,7 @@ Aoun/
 │   ├── languages.js   # Language list for registration
 │   ├── countries.js   # Language codes for translation
 │   └── trans_script.js # Translation logic
-├── img/               # Images (Hajj, Umrah, news, user avatar)
+├── images/               # Images (Hajj, Umrah, news, user avatar)
 ├── database/
 │   ├── aoun.sql       # Database schema
 │   └── aoun (1).sql   # Alternative schema with sample data

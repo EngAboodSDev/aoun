@@ -130,7 +130,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/umrah_1.jfif">
+								<img class="image" src="images/umrah_1.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -155,7 +155,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/umrah_2.jfif">
+								<img class="image" src="images/umrah_2.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -179,7 +179,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/umrah_3.jfif">
+								<img class="image" src="images/umrah_3.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -200,7 +200,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/umrah_4.jfif">
+								<img class="image" src="images/umrah_4.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -224,7 +224,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/umrah_5.jfif">
+								<img class="image" src="images/umrah_5.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -248,7 +248,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/umrah_6.jfif">
+								<img class="image" src="images/umrah_6.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">

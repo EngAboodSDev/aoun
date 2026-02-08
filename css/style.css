@@ -42,7 +42,7 @@ footer p{
 .frame {
 	height: 575px;
 	width: 450px;
-	background: linear-gradient(#a1887f38, #795548), url(../img/makkah.jpg) no-repeat center center;
+	background: linear-gradient(#a1887f38, #795548), url(../images/makkah.jpg) no-repeat center center;
 	background-size: cover;
 	margin-left: auto;
 	margin-right: auto;

@@ -70,7 +70,7 @@ if (isset($_POST['send']) && $_SERVER["REQUEST_METHOD"] == "POST") {
         .hero-bg {
             position: absolute;
             inset: 0;
-            background: url(img/kaaba.jpg) center/cover no-repeat;
+            background: url(images/kaaba.jpg) center/cover no-repeat;
             transition: transform 8s ease-out;
         }
 
@@ -408,7 +408,7 @@ if (isset($_POST['send']) && $_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="ct-blog col-sm-6 col-md-4">
                     <div class="inner">
                         <div class="fauxcrop">
-                            <a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/kaaba.jpg"></a>
+                            <a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="images/kaaba.jpg"></a>
                         </div>
                         <div class="ct-blog-content">
                             <div class="ct-blog-date">
@@ -423,7 +423,7 @@ if (isset($_POST['send']) && $_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="ct-blog col-sm-6 col-md-4">
                     <div class="inner">
                         <div class="fauxcrop">
-                            <a href="https://akhbarelyom.com/news/newdetails/3999848/1/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D8%B9%D8%AF%D9%88%D9%86-%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D9%85%D9%84%D9%8A%D9%88%D9%86%D9%8A-%D8%AD%D8%A7%D8%AC-%D8%AE%D9%84%D8%A7%D9%84-%D9%87"><img alt="News Entry" src="img/hajj_news_2.jpg"></a>
+                            <a href="https://akhbarelyom.com/news/newdetails/3999848/1/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D8%B9%D8%AF%D9%88%D9%86-%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D9%85%D9%84%D9%8A%D9%88%D9%86%D9%8A-%D8%AD%D8%A7%D8%AC-%D8%AE%D9%84%D8%A7%D9%84-%D9%87"><img alt="News Entry" src="images/hajj_news_2.jpg"></a>
                         </div>
                         <div class="ct-blog-content">
                             <div class="ct-blog-date">
@@ -438,7 +438,7 @@ if (isset($_POST['send']) && $_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="ct-blog col-sm-6 col-md-4">
                     <div class="inner">
                         <div class="fauxcrop">
-                            <a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="img/kaaba.jpg"></a>
+                            <a href="https://akhbarelyom.com/news/newdetails/4003550/1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%AC-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AF%D8%A3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82"><img alt="News Entry" src="images/kaaba.jpg"></a>
                         </div>
                         <div class="ct-blog-content">
                             <div class="ct-blog-date">

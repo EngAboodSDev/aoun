@@ -127,7 +127,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_1.jfif">
+								<img class="image" src="images/haj_1.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -149,7 +149,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_2.jfif">
+								<img class="image" src="images/haj_2.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -172,7 +172,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_3.jfif">
+								<img class="image" src="images/haj_3.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -194,7 +194,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_4.jfif">
+								<img class="image" src="images/haj_4.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -216,7 +216,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_5.jfif">
+								<img class="image" src="images/haj_5.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -238,7 +238,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_6.jfif">
+								<img class="image" src="images/haj_6.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -260,7 +260,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_7.jfif">
+								<img class="image" src="images/haj_7.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -281,7 +281,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/umrah_4.jfif">
+								<img class="image" src="images/umrah_4.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -304,7 +304,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_9.jfif">
+								<img class="image" src="images/haj_9.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
@@ -327,7 +327,7 @@ if (!isset($_COOKIE['User_id'])) {
 					<div class="card border-0">
 						<div class="row set-p justify-content-center">
 							<div class="col-sm-4 px-0 py-3">
-								<img class="image" src="img/haj_10.jfif">
+								<img class="image" src="images/haj_10.jfif">
 							</div>
 							<div class="col-sm-8">
 								<div class="row px-3 mt-4 mb-3">
