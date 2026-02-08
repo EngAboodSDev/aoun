@@ -234,28 +234,48 @@ The translation feature uses the free **MyMemory API**:
 <h2 id="screenshots">📸 Screenshots</h2>
 
 <details>
-  <summary>Desktop Screenshots</summary>
+  <summary>Login and Register Page</summary>
+
+![Desktop Home](docs/screenshots/Aoun-Login-TB.png)
+![Desktop Home](docs/screenshots/Aoun-Register-DT.png)
+</details>
+<details>
+  <summary>Home Page</summary>
 
 ![Desktop Home](docs/screenshots/Aoun-Home-DT.png)
+</details>
+
+<details>
+  <summary>Hajj and Umrah Pages</summary>
+
 ![Desktop About](docs/screenshots/Aoun-Hajj-DT.png)
-
+![Desktop About](docs/screenshots/Aoun-Umrah-DT.png)
 </details>
 
 <details>
-  <summary>Tablet Screenshots</summary>
+  <summary>Volunteers Page</summary>
 
-![Tablet Home](docs/screenshots/tablet-home.png)
-![Tablet About](docs/screenshots/tablet-about.png)
-
+![Desktop About](docs/screenshots/Aoun-Volunteers-DT.png)
 </details>
 
 <details>
-  <summary>Mobile Screenshots</summary>
+  <summary>Translate Page</summary>
 
-![Mobile Home](docs/screenshots/mobile-home.png)
-![Mobile About](docs/screenshots/mobile-about.png)
-
+![Desktop About](docs/screenshots/Aoun-Translate-DT.png)
 </details>
+
+<details>
+  <summary>News Page</summary>
+
+![Desktop About](docs/screenshots/Aoun-News-DT.png)
+</details>
+
+  <summary>FAQ Page</summary>
+
+![Desktop About](docs/screenshots/Aoun-FAQ-DT.png)
+</details>
+
+[All Screenshots](/docs/screenshots/)
 
 ---
 
