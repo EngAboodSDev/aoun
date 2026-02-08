@@ -239,6 +239,7 @@ The translation feature uses the free **MyMemory API**:
 ![Desktop Home](docs/screenshots/Aoun-Login-TB.png)
 ![Desktop Home](docs/screenshots/Aoun-Register-DT.png)
 </details>
+
 <details>
   <summary>Home Page</summary>
 
@@ -270,10 +271,12 @@ The translation feature uses the free **MyMemory API**:
 ![Desktop About](docs/screenshots/Aoun-News-DT.png)
 </details>
 
+<details>
   <summary>FAQ Page</summary>
 
 ![Desktop About](docs/screenshots/Aoun-FAQ-DT.png)
 </details>
+
 
 [All Screenshots](/docs/screenshots/)
 
