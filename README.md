@@ -1,5 +1,6 @@
 
-#  🕋 منصة عون لمساعدة الحجاج والمعتمرين | Aoun - Hajj & Umrah Helper Platform  ![logo](/docs/logo.svg)
+#  🕋 منصة عون لمساعدة الحجاج والمعتمرين | Aoun - Hajj & Umrah Helper Platform  
+![logo](/docs/screenshots/main-image.png)
 
 A web platform designed to assist pilgrims (Hajj) and Umrah performers with comprehensive guides, volunteer support, and translation services. The platform connects pilgrims with multilingual volunteers and provides step-by-step ritual instructions in Arabic.
 
@@ -12,11 +13,11 @@ A web platform designed to assist pilgrims (Hajj) and Umrah performers with comp
 - 🛠️ [ Tech Stack Used](#tech-stack-used)
 - 🗂 [ Project Structure](#project-structure)
 - 🖥️ [ Project Requirements](#project-requirements)
-- 📸 [ Screenshots](#screenshots)
 - ⚡ [ Quick Installation](#quick-installation)
 - 🔧 [ Configuration](#configuration)
 - 🗄 [ Database Setup](#database-setup)
 - ▶️ [ Usage](#usage)
+- 📸 [ Screenshots](#screenshots)
 - 🤝 [ Contributing](#contributing)
 - 📄 [ License](#license)
 - 🏷️ [ Credits](#credits)
@@ -136,15 +137,6 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-<h2 id="screenshots">📸 Screenshots</h2>
-
-![Home Page](/public/Screenshot/homepage.png)
-![Login Page](/public/Screenshot/login_page.png)
-![Register Page](/public/Screenshot/register_page.png)
-![Chat Page](/public/Screenshot/chat_page.png)
-
----
-
 <h2 id="quick-installation">⚡ Quick Installation</h2>
 
 1. **Clone the Repository** 
@@ -236,6 +228,34 @@ The translation feature uses the free **MyMemory API**:
 - Select source and target languages.
 - Click **Translate Text**.
 - Use the speaker icon for TTS or the copy icon to copy the result.
+
+---
+
+<h2 id="screenshots">📸 Screenshots</h2>
+
+<details>
+  <summary>Desktop Screenshots</summary>
+
+![Desktop Home](docs/screenshots/Aoun-Home-DT.png)
+![Desktop About](docs/screenshots/Aoun-Hajj-DT.png)
+
+</details>
+
+<details>
+  <summary>Tablet Screenshots</summary>
+
+![Tablet Home](docs/screenshots/tablet-home.png)
+![Tablet About](docs/screenshots/tablet-about.png)
+
+</details>
+
+<details>
+  <summary>Mobile Screenshots</summary>
+
+![Mobile Home](docs/screenshots/mobile-home.png)
+![Mobile About](docs/screenshots/mobile-about.png)
+
+</details>
 
 ---
 
