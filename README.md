@@ -25,8 +25,7 @@ A web platform designed to assist pilgrims (Hajj) and Umrah performers with comp
 ---
 
 <h2 id="overview">📊 Overview</h2>
-<!-- ## Overview -->
-## 📊Overview
+
 **عون (Aoun)** means "Help" or "Support" in Arabic. This platform serves as a digital companion for Muslims performing Hajj or Umrah by providing:
 
 - **Detailed ritual guides** for Hajj and Umrah with step-by-step instructions
@@ -39,8 +38,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-
-## 🚀 Key Features
+<h2 id="key-features">🚀 Key Features</h2>
 
 ### ✔️ Authentication
 - **Login** — Username and password authentication
@@ -78,8 +76,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-
-## 🛠️ Tech-Stack Used
+<h2 id="tech-stack-used">🛠️ Tech-Stack Used</h2>
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
@@ -98,7 +95,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-## 🗂 Project Structure
+<h2 id="project-structure">🗂 Project Structure</h2>
 
 ```
 📁 Aoun/
@@ -127,7 +124,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-## 🖥️ Project Requirements
+<h2 id="project-requirements">🖥️ Project Requirements</h2>
 
 - **Operating System:** Windows 10+, macOS Monterey+, or any Linux distro  
 - **Web Browser:** Chrome / Firefox / Edge (latest versions)  
@@ -139,7 +136,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-## 📸 Screenshots
+<h2 id="screenshots">📸 Screenshots</h2>
 
 ![Home Page](/public/Screenshot/homepage.png)
 ![Login Page](/public/Screenshot/login_page.png)
@@ -148,7 +145,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-## ⚡ Quick Installation
+<h2 id="quick-installation">⚡ Quick Installation</h2>
 
 1. **Clone the Repository** 
      ```bash
@@ -174,7 +171,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 
 ---
 
-## 🔧 Configuration
+<h2 id="configuration">🔧 Configuration</h2>
 
 ### Database Connection (`dbcon.php`)
 
@@ -202,7 +199,7 @@ The translation feature uses the free **MyMemory API**:
 
 ---
 
-## 🗄 Database Setup
+<h2 id="database-setup">🗄 Database Setup</h2>
 
 1. Open **phpMyAdmin** or MySQL CLI.
 
@@ -220,7 +217,7 @@ The translation feature uses the free **MyMemory API**:
 
 ---
 
-## ▶️ Usage
+<h2 id="usage">▶️ Usage</h2>
 
 ### For Pilgrims (Hajj/Umrah)
 1. Register or log in.
@@ -242,7 +239,7 @@ The translation feature uses the free **MyMemory API**:
 
 ---
 
-## 🤝 Contributing
+<h2 id="contributing">🤝 Contributing</h2>
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -252,13 +249,13 @@ The translation feature uses the free **MyMemory API**:
 
 ---
 
-## 📄 License
+<h2 id="license">📄 License</h2>
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🏷️ Credits
+<h2 id="credits">🏷️ Credits</h2>
 
 - **Bootstrap** — [getbootstrap.com](https://getbootstrap.com)
 - **Font Awesome** — [fontawesome.com](https://fontawesome.com)
@@ -268,7 +265,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support and Assistance
+<h2 id="support-and-assistance">📞 Support and Assistance</h2>
 
 ### Getting Help
 - **README.md**: For basic instructions
