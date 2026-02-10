@@ -1,6 +1,6 @@
 
 #  🕋 Aoun - Hajj & Umrah Helper Platform  | منصة عون لمساعدة الحجاج والمعتمرين 
-![logo](/docs/screenshots/main-image.png)
+![logo](/docs/screenshots/Aoun-main.png)
 
 A web platform designed to assist pilgrims Hajj and Umrah performers with comprehensive guides, volunteer support, and translation services. The platform connects pilgrims with multilingual volunteers and provides step-by-step ritual instructions in Arabic.
 
@@ -118,6 +118,7 @@ The interface is fully in **Arabic** with RTL (right-to-left) layout, catering t
 │   ├── countries.js   # Language codes for translation
 │   └── trans_script.js # Translation logic
 ├── 📁 images/         # Images (Hajj, Umrah, news, user avatar)
+├── 📁 docs/             # Documentation files and screenshots
 ├── 📁 database/
 │   └── aoun.sql       # Alternative Database schema with sample data
 └── README.md
@@ -195,7 +196,7 @@ The translation feature uses the free **MyMemory API**:
 
 1. Open **phpMyAdmin** or MySQL CLI.
 
-2. Create the database and import the schema:
+2. Import the schema file:
    ```sql
    -- Run the contents of database/aoun.sql
    ```
